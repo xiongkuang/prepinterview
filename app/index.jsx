@@ -12,7 +12,7 @@ const store = configureStore()
 import RouteMap from './router/routeMap'
 
 import { testFetch } from './fetch/test.jsx'
-testFetch();
+//testFetch();
 
 render(
     <Provider store={store}>
